@@ -1,0 +1,19 @@
+body {
+    background: black;
+    color: orange;
+}
+
+.container {
+    
+}
+
+.block {
+    height: 100px;
+    background: black;
+    border: 1px solid black;
+}
+
+.banner {
+    height: 100vh;
+    background: url("/img/osrs_background.jpg") repeat-y center top;
+}
