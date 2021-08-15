@@ -1,6 +1,8 @@
+$green-font: #90c040;
+
 body {
-    background: black;
-    color: orange;
+   background: black;
+   color:white;
 }
 
 .container {
@@ -16,4 +18,35 @@ body {
 .banner {
     height: 100vh;
     background: url("/img/osrs_background.jpg") repeat-y center top;
+    background-size: 915px;
+    text-align: center;
+}
+
+.login {
+    border: 2px solid #382418;
+    background: black;
+    width: 42%;
+    margin: 15px auto;
+    padding: 4px 4px;
+    text-align: right;
+    font-family: arial;
+    color: $green-font;
+}
+
+.login p {
+    
+}
+
+
+
+@media screen  and (max-width: 914px){
+    .banner {
+        background-size: contain;
+
+    }
+
+    .logo {
+        width: 82%;
+        height: auto;
+    }
 }

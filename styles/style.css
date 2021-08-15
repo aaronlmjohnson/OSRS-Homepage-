@@ -1,6 +1,6 @@
 body {
   background: black;
-  color: orange;
+  color: white;
 }
 
 .block {
@@ -12,6 +12,30 @@ body {
 .banner {
   height: 100vh;
   background: url("/img/osrs_background.jpg") repeat-y center top;
+  background-size: 915px;
+  text-align: center;
+}
+
+.login {
+  border: 2px solid #382418;
+  background: black;
+  width: 42%;
+  margin: 15px auto;
+  padding: 4px 4px;
+  text-align: right;
+  font-family: arial;
+  color: #90c040;
+}
+
+@media screen and (max-width: 914px) {
+  .banner {
+    background-size: contain;
+  }
+
+  .logo {
+    width: 82%;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
