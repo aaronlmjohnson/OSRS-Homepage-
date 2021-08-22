@@ -19,12 +19,66 @@ body {
 .login {
   border: 2px solid #382418;
   background: black;
-  width: 42%;
+  width: 764px;
   margin: 15px auto;
   padding: 4px 4px;
   text-align: right;
   font-family: arial;
   color: #90c040;
+}
+
+.menu.row {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.menu-right {
+  margin-left: 30px;
+  margin-right: 0;
+  padding-top: 20px;
+}
+
+.options {
+  background: black;
+  border: 2px solid #382418;
+  width: 100%;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.option img {
+  padding: 0 5px;
+}
+
+.png {
+  padding: 0 120px 0 7px;
+}
+
+.option a {
+  color: #90c040;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+.option a:hover {
+  text-decoration: underline;
+}
+
+.play-button {
+  display: flex;
+  background: url("/img/compare_users.gif");
+  width: 152px;
+  height: 125px;
+  margin: 0 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-button a {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
 }
 
 @media screen and (max-width: 914px) {
@@ -35,6 +89,14 @@ body {
   .logo {
     width: 82%;
     height: auto;
+  }
+
+  .login {
+    width: 80%;
+  }
+
+  .menu.row {
+    width: 82%;
   }
 }
 
