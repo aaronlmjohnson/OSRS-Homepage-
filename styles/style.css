@@ -10,7 +10,6 @@ body {
 }
 
 .banner {
-  height: 100vh;
   background: url("/img/osrs_background.jpg") repeat-y center top;
   background-size: 915px;
   text-align: center;
@@ -25,6 +24,12 @@ body {
   text-align: right;
   font-family: arial;
   color: #90c040;
+}
+
+.player-count {
+  margin-top: 30px;
+  font-family: Arial;
+  font-size: 13px;
 }
 
 .menu.row {
@@ -79,6 +84,44 @@ body {
   font-size: 17px;
   font-weight: bold;
   color: white;
+}
+
+.scroll {
+  position: relative;
+  margin: 30px auto 0 auto;
+  width: 42%;
+}
+
+.scroll-top {
+  position: absolute;
+  background: url("/img/scroll_top.gif") no-repeat center;
+  width: 100%;
+  height: 50px;
+}
+
+.scroll-body {
+  background: url("/img/scroll_body.gif") repeat-y center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 10px;
+  padding: 70px 52px 0 52px;
+}
+
+.main-title {
+  font-family: initial;
+  font-size: 2.2em;
+  color: #6D4211;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+
+.description {
+  font-family: Arial;
+  text-align: left;
+  margin-top: 30px;
+  color: black;
+  font-size: 13px;
+  line-height: 1.6;
 }
 
 @media screen and (max-width: 914px) {
